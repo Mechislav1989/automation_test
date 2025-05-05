@@ -69,7 +69,12 @@ You can use any tool(s) or AI you want to complete this assignment.
 ## 💭 Reflection Questions (Add you answer into your `README.md`)
 
 * What steps did you prioritize first? Why?
+  I prioritized designing the application architecture. This was crucial to ensure modularity and scalability, making it easier to add new features later. After that, I analyzed the structure of the website to identify key elements for automation, such as the login page, product inventory, and checkout process. This sequence allowed me to understand the domain fully before implementing the automation steps like login, product data extraction, and order simulation.
 * What was critical to complete in the 1 hour?
+  The website is relatively simple, so the critical tasks within the 1-hour coding window were implementing the core functionalities: logging in with valid and invalid credentials, extracting product data and saving it to a CSV file, and simulating a checkout process with missing data to trigger validation errors.
 * How long did you actually spend on the project?
+  I spent 1 hours on preparation and studying, which included analyzing the website and planning the architecture. The actual coding took 1 hour. Documenting and testing 1 hour.
 * How did you know your automation was working?
+  I verified the automation worked by checking multiple outputs: the logs in automation.log confirmed successful operations and flagged errors, the products.csv file contained accurate product data, and screenshots in automation_screenshots captured validation errors as expected. Additionally, I ran the script with headless=False in the browser configuration to visually confirm the automation steps executed correctly.
 * What would you improve with more time?
+  With additional time, I would enhance the script by adding more test cases, improving error handling for edge cases. 

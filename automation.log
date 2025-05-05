@@ -1,0 +1,13 @@
+2025-05-05 17:25:25,734 - automation - INFO - Found 6 users on the page: https://www.saucedemo.com/
+2025-05-05 17:25:25,734 - automation - INFO - Found 6 users to test. Logging in...[User(username='error_user', password='secret_sauce'), User(username='locked_out_user', password='secret_sauce'), User(username='standard_user', password='secret_sauce'), User(username='problem_user', password='secret_sauce'), User(username='performance_glitch_user', password='secret_sauce'), User(username='visual_user', password='secret_sauce')]
+2025-05-05 17:25:26,849 - automation - INFO - Found 6 items on the page: https://www.saucedemo.com/inventory.html
+2025-05-05 17:25:26,951 - automation - INFO - Exported 6 products to products.csv.
+2025-05-05 17:25:31,173 - automation - INFO - Checkout validation completed with errors: ['Error: First Name is required']
+2025-05-05 17:25:36,409 - automation - INFO - Exported 1 products to /private/var/folders/5n/g91h65r95013qbvl8949ktwm0000gn/T/pytest-of-mechislavyastremskyi/pytest-38/test_csv_export0/test.csv.
+2025-05-05 17:25:38,711 - automation - INFO - Found 1 users to test. Logging in...[User(username='standard_user', password='secret_sauce')]
+2025-05-05 17:25:39,797 - automation - INFO - Found 1 users to test. Logging in...[User(username='invalid_user', password='wrong_password')]
+2025-05-05 17:52:54,133 - automation - INFO - Found 6 users on the page: https://www.saucedemo.com/
+2025-05-05 17:52:54,134 - automation - INFO - Found 6 users to test. Logging in...[User(username='error_user', password='secret_sauce'), User(username='problem_user', password='secret_sauce'), User(username='locked_out_user', password='secret_sauce'), User(username='performance_glitch_user', password='secret_sauce'), User(username='visual_user', password='secret_sauce'), User(username='standard_user', password='secret_sauce')]
+2025-05-05 17:52:55,600 - automation - INFO - Found 6 items on the page: https://www.saucedemo.com/inventory.html
+2025-05-05 17:52:55,701 - automation - INFO - Exported 6 products to products.csv.
+2025-05-05 17:52:59,424 - automation - INFO - Checkout validation completed with errors: ['Error: First Name is required']
